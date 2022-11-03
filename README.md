@@ -48,6 +48,11 @@ The reciprocal of the principal [cube root][cube-root] is defined as
 ## Usage
 
 ```javascript
+import rcbrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rcbrt@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-rcbrt/tags). For example,
+
+```javascript
 import rcbrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rcbrt@v0.0.1-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ v = rcbrt( Infinity );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import rcbrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rcbrt@v0.0.1-esm/index.mjs';
+import rcbrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rcbrt@esm/index.mjs';
 
 var x;
 var i;
