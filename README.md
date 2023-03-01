@@ -212,7 +212,7 @@ int main() {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/cbrt`][@stdlib/math/base/special/cbrt]</span><span class="delimiter">: </span><span class="description">compute the principal cube root of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/cbrt`][@stdlib/math/base/special/cbrt]</span><span class="delimiter">: </span><span class="description">compute the principal cube root of a double-precision floating-point number.</span>
 
 </section>
 
