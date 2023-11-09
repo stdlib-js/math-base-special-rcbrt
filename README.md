@@ -223,12 +223,6 @@ int main( void ) {
 
 <section class="related">
 
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/math-base/special/cbrt`][@stdlib/math/base/special/cbrt]</span><span class="delimiter">: </span><span class="description">compute the principal cube root of a double-precision floating-point number.</span>
-
 </section>
 
 <!-- /.related -->
@@ -305,8 +299,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [cube-root]: https://en.wikipedia.org/wiki/Cube_root
 
 <!-- <related-links> -->
-
-[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt
 
 <!-- </related-links> -->
 
