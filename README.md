@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# Reciprocal Cube Root
+# rcbrt
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -119,15 +119,13 @@ v = rcbrt( Infinity );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
 var rcbrt = require( '@stdlib/math-base-special-rcbrt' );
 
 var x;
 var i;
-
 for ( i = 0; i < 100; i++ ) {
-    x = round( randu() * 100.0 );
+    x = discreteUniform( 0.0, 100.0 );
     console.log( 'rcbrt(%d) = %d', x, rcbrt( x ) );
 }
 ```
