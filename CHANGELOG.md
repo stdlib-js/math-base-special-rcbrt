@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2025-11-08)
 
 <section class="reverts">
 
@@ -22,13 +22,14 @@
 
 <details>
 
+-   [`1f10d15`](https://github.com/stdlib-js/stdlib/commit/1f10d15d05461baee65d787a0ec965f7d1510ef0) - **chore:** add structured package data for `math/base/special/rcbrt` [(#8426)](https://github.com/stdlib-js/stdlib/pull/8426) _(by Manvith M)_
 -   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`b20b024`](https://github.com/stdlib-js/stdlib/commit/b20b0247ea520b8f715d41851cb7b1fbfdf2122d) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`580a43f`](https://github.com/stdlib-js/stdlib/commit/580a43fb5dcd86b4e2647cc0b9bdae271e889301) - **chore:** minor clean-up _(by Philipp Burckhardt)_
--   [`544385d`](https://github.com/stdlib-js/stdlib/commit/544385dd540a06830b51111ac9e61b0aaa81e048) - **docs:** replace manual `for` loop in examples [(#6490)](https://github.com/stdlib-js/stdlib/pull/6490) _(by Harsh)_
+-   [`544385d`](https://github.com/stdlib-js/stdlib/commit/544385dd540a06830b51111ac9e61b0aaa81e048) - **docs:** replace manual `for` loop in examples [(#6490)](https://github.com/stdlib-js/stdlib/pull/6490) _(by Harsh Yadav)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`8d343e1`](https://github.com/stdlib-js/stdlib/commit/8d343e192c75b0c60451e996351ccf276b49f2c4) - **bench:** update random value generation [(#6398)](https://github.com/stdlib-js/stdlib/pull/6398) _(by Harsh)_
+-   [`8d343e1`](https://github.com/stdlib-js/stdlib/commit/8d343e192c75b0c60451e996351ccf276b49f2c4) - **bench:** update random value generation [(#6398)](https://github.com/stdlib-js/stdlib/pull/6398) _(by Harsh Yadav)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
@@ -47,11 +48,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
+-   Manvith M
 -   Philipp Burckhardt
 
 </section>
